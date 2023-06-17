@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd32f26d-5e78-4637-9cf2-e3fcc535ab1a" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2RL5e7yVGGZrYhMqjwKcVNkxvf1" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/enesa/IdeaProjects/Project08_Team10/src/test/resources/features_ui/us-13_ui",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10\src\test\resources\features_ui\us-13_ui" />
+      <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10\src\test\java\team_10\utilities" />
+      <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10\src\test\java\team_10\stepdefinitions\us13_ui_vice_dean_registry" />
+      <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10\src\test\java\team_10\pojos" />
+      <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10\src\test\java\team_10\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Scenario: US13_AC1_TC1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-13_ui/US13_UI_Vice_Dean_Registry.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="NAME_FILTER" value="^US13_AC1_TC1$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^US13_AC1_TC1$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: US13_AC1_TC1" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Scenario: US13_AC1_TC1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd32f26d-5e78-4637-9cf2-e3fcc535ab1a" name="Changes" comment="" />
+      <created>1687016614005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687016614005</updated>
+    </task>
+    <servers />
+  </component>
+</project>
