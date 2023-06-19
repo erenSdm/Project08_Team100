@@ -362,20 +362,20 @@ public class Managementonschool_HomePage {
     @FindBy(xpath = "//div[text()='You have entered an invalid value. Valid values are: MALE, FEMALE']")public WebElement pleaseChooseLessonMessage;
     @FindBy(xpath = "//div[text()='Your name should be at least 2 characters']")public WebElement invalidNameWarning;
     @FindBy(xpath = "//div[text()='Your surname should be at least 2 characters']")public WebElement invalidSurNameWarning;
+    @FindBy(xpath = "//div[text()='You have entered an invalid value. Valid values are: MALE, FEMALE']")public WebElement invalidGengerSelectWarning;
     @FindBy(xpath = "//div[text()='Your birth place should be at least 2 characters']")public WebElement birthPlaceWarning;
     @FindBy(xpath = "//div[text()='Please enter valid email']")public WebElement pleaseEnterValidEmailMessage;
+    @FindBy(xpath = "//div[text()='Your email should be between 5 and 50 characters']")public WebElement pleaseEnterValidEmail2Message;
     @FindBy(xpath = "//div[text()='Phone number should be exact 12 characters']")public WebElement pleaseEnterValidPhoneNumberMessage;
     @FindBy(xpath = "//div[text()='Please enter valid phone number']")public WebElement pleaseEnterValidPhoneNumberMessage2;
     @FindBy(xpath = "//div[text()='geçmiş bir tarih olmalı']")public WebElement dogumGunuGecmisBirTarihOlmali;
     @FindBy(xpath = "//div[text()='Please enter valid SSN number']")public WebElement pleaseEnterValidSSNNumberMessage;
     @FindBy(xpath = "//div[text()='Your username should be at least 4 characters']")public WebElement userNameMust4CharMessage;
+    @FindBy(xpath = "//div[text()='Full authentication is required to access this resource']")public WebElement fullAuthenticationWanrning;
 
     @FindBy(xpath = "//span[@class='text-white']") public WebElement kullaniciIsmiTexti;
     @FindBy(xpath = "//div[@role='alert']")public WebElement teacherSavedMessage;
-
-
-
-
+    @FindBy(css = " [class=' css-1xc3v61-indicatorContainer']") public WebElement selectLesson;
 
 
 

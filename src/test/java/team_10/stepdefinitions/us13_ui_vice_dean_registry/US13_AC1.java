@@ -94,7 +94,7 @@ public class US13_AC1 {
     public void choose_a_lesson() {
         Actions actions = new Actions(Driver.getDriver());
         actions.click(managementonschoolHomePage.dropdownChooseLesson).perform();
-        actions.sendKeys("Java", Keys.ARROW_DOWN, Keys.ENTER).build().perform();
+        actions.click(managementonschoolHomePage.dropdownChooseLesson).sendKeys("Java", Keys.ARROW_DOWN, Keys.ENTER).build().perform();
     }
 
     @And("Enter random<{string}>")
@@ -171,4 +171,8 @@ public class US13_AC1 {
 
     }
 
+    @Then("Close it")
+    public void closeIt() {
+        Driver.quitDriver();
+    }
 }
