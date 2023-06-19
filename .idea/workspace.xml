@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd32f26d-5e78-4637-9cf2-e3fcc535ab1a" name="Changes" comment="finally" />
+    <list default="true" id="dd32f26d-5e78-4637-9cf2-e3fcc535ab1a" name="Changes" comment="finally">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us13_ui_vice_dean_registry/US13_AC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us13_ui_vice_dean_registry/US13_AC1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features_ui/us-13_ui/US13_UI_Vice_Dean_Registry.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-13_ui/US13_UI_Vice_Dean_Registry.feature" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +53,47 @@
       <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Cucumber Java.Scenario: US13_AC13_TC13">
+    <configuration name="Scenario: US13_AC12_TC12" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-13_ui/US13_UI_Vice_Dean_Registry.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="NAME_FILTER" value="^US13_AC12_TC12$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^US13_AC12_TC12$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: US13_AC12_TC12" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: US13_AC13_TC13" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-13_ui/US13_UI_Vice_Dean_Registry.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="NAME_FILTER" value="^US13_AC13_TC13$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^US13_AC13_TC13$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: US13_AC13_TC13" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: US13_AC1_TC1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-13_ui/US13_UI_Vice_Dean_Registry.feature" />
@@ -72,6 +116,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: US13_AC13_TC13" />
+        <item itemvalue="Cucumber Java.Scenario: US13_AC12_TC12" />
         <item itemvalue="Cucumber Java.Scenario: US13_AC1_TC1" />
       </list>
     </recent_temporary>
