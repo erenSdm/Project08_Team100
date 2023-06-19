@@ -1,0 +1,1 @@
+Feature: TC_01_AdminDeanEkleme
