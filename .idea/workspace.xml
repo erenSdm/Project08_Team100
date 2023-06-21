@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd32f26d-5e78-4637-9cf2-e3fcc535ab1a" name="Changes" comment="finally">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/tc_01 Vice Dean ders secebilmelidir.feature" afterDir="false" />
+    <list default="true" id="dd32f26d-5e78-4637-9cf2-e3fcc535ab1a" name="Changes" comment="v1.Ayk">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/team_10/pages/Managementonschool_LessonPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us10_ui_viceDean/US10_TC01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/tc_01 Vice Dean ders secebilmelidir.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,14 +46,18 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/enesa/IdeaProjects/Project08_Team10/src/test/resources/features_ui/us-13_ui&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/enesa/IdeaProjects/Project08_Team10/src/test/resources/features_ui/us-13_ui",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10\src\test\resources\features_ui\us-13_ui" />
@@ -59,16 +70,15 @@
       <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: US13_AC13_TC13">
-    <configuration name="Scenario: US13_AC12_TC12" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: TC-02 Vice Dean can choose education term">
+    <configuration name="Feature: US01_ViceDeanCanCreateLessonsProgram" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-13_ui/US13_UI_Vice_Dean_Registry.feature" />
-      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry team_10.stepdefinitions.us10_ui_viceDean" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Project08_Team10" />
-      <option name="NAME_FILTER" value="^US13_AC12_TC12$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^US13_AC12_TC12$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: US13_AC12_TC12" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: US01_ViceDeanCanCreateLessonsProgram" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -80,15 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: US13_AC13_TC13" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-01 ice Dean can choose lesson" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-13_ui/US13_UI_Vice_Dean_Registry.feature" />
-      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry team_10.stepdefinitions.us10_ui_viceDean" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Project08_Team10" />
-      <option name="NAME_FILTER" value="^US13_AC13_TC13$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^US13_AC13_TC13$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: US13_AC13_TC13" />
+      <option name="NAME_FILTER" value="^TC\-01 ice Dean can choose lesson$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-01 ice Dean can choose lesson$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-01 ice Dean can choose lesson" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -100,15 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: US13_AC1_TC1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: TC-02 Vice Dean can choose education term" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-13_ui/US13_UI_Vice_Dean_Registry.feature" />
-      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry team_10.stepdefinitions.us10_ui_viceDean" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Project08_Team10" />
-      <option name="NAME_FILTER" value="^US13_AC1_TC1$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^US13_AC1_TC1$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: US13_AC1_TC1" />
+      <option name="NAME_FILTER" value="^TC\-02 Vice Dean can choose education term$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-02 Vice Dean can choose education term$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-02 Vice Dean can choose education term" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -120,11 +130,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: Vice Dean can choose lesson" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry team_10.stepdefinitions.us10_ui_viceDean" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="NAME_FILTER" value="^Vice Dean can choose lesson$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Vice Dean can choose lesson$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Vice Dean can choose lesson" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Vice Dean ders secebilmelidir (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/tc_01.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry team_10.stepdefinitions.us10_ui_viceDean" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="NAME_FILTER" value="^Vice Dean ders secebilmelidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Vice Dean ders secebilmelidir$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Vice Dean ders secebilmelidir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Scenario: TC-01 ice Dean can choose lesson" />
+      <item itemvalue="Cucumber Java.Feature: US01_ViceDeanCanCreateLessonsProgram" />
+      <item itemvalue="Cucumber Java.Scenario: TC-02 Vice Dean can choose education term" />
+      <item itemvalue="Cucumber Java.Scenario: Vice Dean can choose lesson" />
+      <item itemvalue="Cucumber Java.Scenario: Vice Dean ders secebilmelidir (1)" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: US13_AC13_TC13" />
-        <item itemvalue="Cucumber Java.Scenario: US13_AC12_TC12" />
-        <item itemvalue="Cucumber Java.Scenario: US13_AC1_TC1" />
+        <item itemvalue="Cucumber Java.Scenario: TC-02 Vice Dean can choose education term" />
+        <item itemvalue="Cucumber Java.Scenario: TC-01 ice Dean can choose lesson" />
+        <item itemvalue="Cucumber Java.Feature: US01_ViceDeanCanCreateLessonsProgram" />
+        <item itemvalue="Cucumber Java.Scenario: Vice Dean can choose lesson" />
+        <item itemvalue="Cucumber Java.Scenario: Vice Dean ders secebilmelidir (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687035386171</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="v1.Ayk">
+      <created>1687361796859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687361796859</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -175,6 +243,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cc" />
     <MESSAGE value="finally" />
-    <option name="LAST_COMMIT_MESSAGE" value="finally" />
+    <MESSAGE value="v1.Ayk" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.Ayk" />
   </component>
 </project>
