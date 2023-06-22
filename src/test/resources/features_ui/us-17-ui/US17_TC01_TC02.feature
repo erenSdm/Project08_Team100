@@ -25,9 +25,9 @@ Feature: US17 Teacher, öğrencilere not verebilmelidir.
     And logine basilir
     And iki saniye beklenir_k
     Then "<username>" yazisi gorunur
-    And add student Info bolumunde "Ahlak Dersi" dersi secilir_k
+    And add student Info bolumunde "<Selenium>" dersi secilir_k
     And iki saniye beklenir_k
-    And add student Info bolumunde "kubraogrenci" ogrencisi secilir_k
+    And add student Info bolumunde "Kubra ogrenci2" ogrencisi secilir_k
     And iki saniye beklenir_k
     And add student Info bolumunde "<SPRING_SEMESTER>" secilir_k
     And su bilgiler girilir: "<absentee>", "<midtermexam>", "<finalexam>", "<infonote>",

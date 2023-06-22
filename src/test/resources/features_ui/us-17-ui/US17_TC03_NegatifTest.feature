@@ -10,15 +10,21 @@ Feature: US17 Teacher, öğrencilere not verebilmelidir.
     And logine basilir
     And iki saniye beklenir_k
     Then "<username>" yazisi gorunur
-    And add student Info bolumunde "Ahlak Dersi" dersi secilir_k
+    And add student Info bolumunde "Selenium" dersi secilir_k
     And iki saniye beklenir_k
-    And add student Info bolumunde "kubraogrenci" ogrencisi secilir_k
+    And add student Info bolumunde "Kubra ogrenci2" ogrencisi secilir_k
     And iki saniye beklenir_k
     And add student Info bolumunde "<SPRING_SEMESTER>" secilir_k
     And su bilgiler girilir: "<absentee>", "<midtermexam>", "<finalexam>", "<infonote>",
     And submit tusuna basilir_k
-    And student info listte girilen bilgiler gorunur_k
+    And iki saniye beklenir_k
+    And Logout yapilir
 
     Examples:
-      | absentee | midtermexam | finalexam | infonote |
-      | 10       | 20          | 50        | Basarili |
+      | absentee     | midtermexam | finalexam | infonote |
+      | 10.050       | 50          | 100       | Basarili |
+      | 70           | 999         | 89        | Basarili |
+      | yazi girilir | 1.99        | -56       | Basarili |
+      | 100          | -70         | 78        | 56.9     |
+
+
