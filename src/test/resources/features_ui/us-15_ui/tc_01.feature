@@ -1,0 +1,1 @@
+Feature: Vice Dean ogrenci ekleyebilmelidir.
