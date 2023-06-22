@@ -210,8 +210,9 @@ Feature: US13_UI_Vice_Dean_Registry_AC1
     And Enter random<"userName">
     And Enter random<"password">
     And Click To <"Submit">
+    Then Close it
 
-  Scenario: US13_AC13_TC13
+  Scenario: US14_AC13_TC13
 
     And Enter specific <"Ahmet"> to <"name">
     And Enter specific <"Ahmet"> to <"surname">
