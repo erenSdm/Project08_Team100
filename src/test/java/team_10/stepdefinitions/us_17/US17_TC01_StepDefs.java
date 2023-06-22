@@ -11,6 +11,7 @@ import team_10.pages.KubraLocatler;
 import team_10.pages.Managementonschool_HomePage;
 import team_10.utilities.ConfigReader;
 import team_10.utilities.Driver;
+import team_10.utilities.ReusableMethods;
 
 import javax.swing.*;
 import java.security.Key;
@@ -18,6 +19,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 import static org.junit.Assert.*;
+import static team_10.utilities.ReusableMethods.webelementJavaScript;
 
 public class US17_TC01_StepDefs {
 
@@ -147,22 +149,24 @@ public class US17_TC01_StepDefs {
 
 
     @And("add student Info bolumunde {string} dersi secilir_k")
-    public void addStudentInfoBolumundeDersiSecilir_k(String lesson) {
-        kubraLocatler = new KubraLocatler();
-        WebElement ders = Driver.getDriver().findElement(By.xpath("//*[@id='lessonId']"));
+    public void addStudentInfoBolumundeDersiSecilir_k(String ders) {
 
-        Actions action = new Actions(Driver.getDriver());
-        action.sendKeys(lesson, Keys.ENTER).perform();
+        kubraLocatler = new KubraLocatler();
+        WebElement lesson = Driver.getDriver().findElement(By.xpath("(//select[@class='form-select'])[1]"));
+
+        Select select = new Select(lesson);
+        select.selectByVisibleText(ders);
+
 
     }
 
     @And("add student Info bolumunde {string} ogrencisi secilir_k")
     public void addStudentInfoBolumundeOgrencisiSecilir_k(String student) {
         kubraLocatler = new KubraLocatler();
-        WebElement ogrenci = Driver.getDriver().findElement(By.xpath("//*[@id='studentId]"));
+        WebElement ogrenci = Driver.getDriver().findElement(By.xpath("//select[@id='studentId']"));
 
         Select select = new Select(ogrenci);
-        select.selectByVisibleText("kubraogrenci");
+        select.selectByVisibleText(student);
     }
 
 
@@ -176,4 +180,7 @@ public class US17_TC01_StepDefs {
         select.selectByIndex(1);
 
     }
+
+
+
 }

@@ -65,5 +65,20 @@ public class KubraLocatler {
     @FindBy(xpath = "//button[text()='Login']")
     public WebElement loginteach;
 
+    @FindBy(xpath ="//option[text()='Selenium']")
+    public WebElement chooseLesson;
+
+    @FindBy(xpath ="(//*[text()='Selenium'])[2]")
+    public WebElement seleniumSecim;
+
+    //a[text()='Logout']
+
+    @FindBy(xpath ="//a[text()='Logout']")
+    public WebElement logout;
+
+    //button[@aria-controls='offcanvasNavbar-expand-false']
+    @FindBy(xpath ="//button[@aria-controls='offcanvasNavbar-expand-false']")
+    public WebElement menu;
+
 }
 

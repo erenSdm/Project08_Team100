@@ -203,4 +203,14 @@ public class ReusableMethods {
         String attribute_Value = (String) js.executeScript("return document.getElementById('" + id + "')." + attributeName);
         System.out.println("Attribute Value: = " + attribute_Value);
     }
+
+    /**
+     *  JavaScript ile webelement olusturma
+     * @param javascriptYolu internet sitesinden sag klik ile JS yolunu kopyala ile alınan metin olacak
+     */
+    public static WebElement webelementJavaScript(String javascriptYolu) {
+        JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
+        WebElement webElement = (WebElement) js.executeScript("return "+javascriptYolu+"");
+        return webElement;
+    }
 }
