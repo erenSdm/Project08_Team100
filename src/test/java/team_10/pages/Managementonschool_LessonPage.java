@@ -253,6 +253,16 @@ public class Managementonschool_LessonPage {
     @FindBy(xpath ="//select[@class='mt-5 form-select']" )  public WebElement chooseEducationTermInLessonProgramasViceDean;
     @FindBy(xpath = "(//option[@class='fw-semibold m-2'])[2]")  public WebElement chooseSPRING_SEMESTERInEducationTermInLessonProgramasViceDean;
 
+    @FindBy(xpath ="//select[@class='mb-3 form-select']" )  public WebElement chooseDayInLessonProgramasViceDean;
+    @FindBy(xpath = "//*[text()='MONDAY']")  public WebElement chooseMondayInLessonProgramasViceDean;
+    @FindBy(xpath = "//*[@id='startTime']")  public WebElement chooseStartTimeInLessonProgramasViceDean;
+    @FindBy(xpath = "//*[@id='stopTime']")  public WebElement chooseStopTimeInLessonProgramasViceDean;
+    @FindBy(xpath = "(//button[@class='fw-semibold btn btn-primary btn-lg'])[3]")  public WebElement submitButtonAddLessonProgram;
+    @FindBy(xpath = "(//table[@class='table table-striped table-bordered table-hover'])[3]")  public WebElement lessonProgramList;
+    @FindBy(css = "#controlled-tab-example-tabpane-lessonProgram > div:nth-child(2) > div:nth-child(2) > div > div > table > tbody")  public WebElement tableInLessonProgram;
+
+
+
 
 
 
