@@ -41,6 +41,15 @@ public class ViceDean_Lesson {
     @FindBy(linkText ="//div[text()='Lesson Created']")
     public WebElement lessonCeratedAlert;
 
+    @FindBy(xpath ="//button[@aria-controls='offcanvasNavbar-expand-false']")
+    public WebElement menuButton;
+
+    @FindBy(xpath = "//*[text()='Logout']")
+    public WebElement logout;
+
+    @FindBy(xpath = "//button[@class='btn btn-warning']")
+    public WebElement yes;
+
 
 
 

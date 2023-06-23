@@ -12,9 +12,9 @@ public class Us_08_ViceDean_Lesson {
      ViceDean_Lesson viceDean_lesson;
 
 
-    @Given("kullanici {string} sayfasina gider")
-    public void kullaniciSayfasinaGider(String url) {
-        Driver.getDriver().get(ConfigReader.getProperty(url));
+    @Given("kullanici ana sayfaya gider")
+    public void kullaniciAnaSayfayaGider() {
+        Driver.getDriver().get(ConfigReader.getProperty("managementonschoolUrl"));
     }
     @Given("kullanici login butonunu tıklar")
     public void kullanici_login_butonunu_tıklar() {
@@ -53,7 +53,7 @@ public class Us_08_ViceDean_Lesson {
     @Then("kullanici LessonName bilgisini girer")
     public void kullaniciLessonNameBilgisiniGirer() {
         viceDean_lesson=new ViceDean_Lesson();
-        viceDean_lesson.lessonNameBox.sendKeys("STLC18",Keys.ENTER);
+        viceDean_lesson.lessonNameBox.sendKeys("STLC19",Keys.ENTER);
     }
 
 
@@ -66,7 +66,7 @@ public class Us_08_ViceDean_Lesson {
     @And("Credit Score {int} bilgisini girer")
     public void creditScoreBilgisiniGirer(int creditScore) {
         viceDean_lesson=new ViceDean_Lesson();
-        viceDean_lesson.creditScoreBox.sendKeys("0");
+        viceDean_lesson.creditScoreBox.sendKeys("5");
     }
     @And("kullanici submit butonu tıklar")
     public void kullaniciSubmitButonuTıklar() {
@@ -95,5 +95,25 @@ public class Us_08_ViceDean_Lesson {
     @And("kullanici sayfayı kapatir")
     public void kullaniciSayfayıKapatir() {
         Driver.getDriver().close();
+    }
+
+
+    @And("kullanici menuButtonu clickler")
+    public void kullaniciMenuButtonuClickler() {
+        viceDean_lesson=new ViceDean_Lesson();
+        viceDean_lesson.menuButton.click();
+    }
+
+    @And("kullanici logout secenegini tıklar")
+    public void kullaniciLogoutSeceneginiTıklar() {
+        viceDean_lesson=new ViceDean_Lesson();
+        viceDean_lesson.logout.click();
+    }
+
+
+    @And("kullanici YES secenegini tıklar")
+    public void kullaniciYESSeceneginiTıklar() {
+        viceDean_lesson=new ViceDean_Lesson();
+        viceDean_lesson.yes.click();
     }
 }
