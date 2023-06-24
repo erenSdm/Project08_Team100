@@ -16,7 +16,10 @@ Feature: US17 Teacher, öğrencilere not verebilmelidir.
     And iki saniye beklenir_k
     And add student Info bolumunde "<SPRING_SEMESTER>" secilir_k
     And su bilgiler girilir: "<absentee>", "<midtermexam>", "<finalexam>", "<infonote>",
+    And iki saniye beklenir_k
     And submit tusuna basilir_k
+    And iki saniye beklenir_k
+    And menu tiklanir_k
     And iki saniye beklenir_k
     And Logout yapilir
 
