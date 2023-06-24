@@ -176,11 +176,17 @@ public class US13_AC1 {
     }
 
 
+
     @Then("Quit Driver Gorkem")
     public void quitDriverGorkem() {
+
+    @Then("Close it")
+    public void closeIt() {
+
         Driver.quitDriver();
         ReusableMethods.bekle(3);
     }
+
 
     @And("Warning for <{string}>")
     public void warningFor(String warning) {
@@ -249,4 +255,5 @@ public class US13_AC1 {
         }
         Assert.assertTrue(assrt);
     }
+
 }
