@@ -3,12 +3,14 @@ package team_10.stepdefinitions.us13_ui_vice_dean_registry;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import team_10.pages.Managementonschool_HomePage;
 import team_10.utilities.ConfigReader;
 import team_10.utilities.Driver;
 import team_10.utilities.FakeProfile;
+import team_10.utilities.ReusableMethods;
 
 public class US13_AC1 {
     Managementonschool_HomePage managementonschoolHomePage;
@@ -77,6 +79,7 @@ public class US13_AC1 {
 
 
         }
+        ReusableMethods.bekle(2);
     }
 
     @Then("Enter<{string}> UserName")
@@ -95,6 +98,7 @@ public class US13_AC1 {
         Actions actions = new Actions(Driver.getDriver());
         actions.click(managementonschoolHomePage.dropdownChooseLesson).perform();
         actions.click(managementonschoolHomePage.dropdownChooseLesson).sendKeys("Java", Keys.ARROW_DOWN, Keys.ENTER).build().perform();
+
     }
 
     @And("Enter random<{string}>")
@@ -172,9 +176,84 @@ public class US13_AC1 {
     }
 
 
+
+    @Then("Quit Driver Gorkem")
+    public void quitDriverGorkem() {
+
     @Then("Close it")
     public void closeIt() {
+
         Driver.quitDriver();
+        ReusableMethods.bekle(3);
+    }
+
+
+    @And("Warning for <{string}>")
+    public void warningFor(String warning) {
+       boolean assrt=false;
+        switch (warning) {
+            case "nameRequired":
+                assrt = managementonschoolHomePage.nameRequired.isDisplayed();
+                break;
+            case "surNameRequired":
+                assrt =  managementonschoolHomePage.surNameRequired.isDisplayed();
+                break;
+            case "birthPlaceRequired":
+                assrt =  managementonschoolHomePage.birthPlaceRequired.isDisplayed();
+                break;
+            case "emailRequired":
+                assrt = managementonschoolHomePage.emailRequired.isDisplayed();
+                break;
+            case "phoneNumberRequired":
+                assrt =  managementonschoolHomePage.phoneNumberRequired.isDisplayed();
+                break;
+            case "birthDayRequired":
+                assrt = managementonschoolHomePage.birthDayRequired.isDisplayed();
+                break;
+            case "sSNRequired":
+                assrt = managementonschoolHomePage.sSNRequired.isDisplayed();
+                break;
+            case "passwordRequired":
+                assrt =  managementonschoolHomePage.passwordRequired.isDisplayed();
+                break;
+            case "pleaseChooseLessonMessage":
+                assrt =  managementonschoolHomePage.pleaseChooseLessonMessage.isEnabled();
+                break;
+            case "invalidNameWarning":
+                assrt =  managementonschoolHomePage.invalidNameWarning.isDisplayed();
+                break;
+            case "invalidSurNameWarning":
+                assrt = managementonschoolHomePage.invalidSurNameWarning.isDisplayed();
+                break;
+            case "birthPlaceWarning":
+                assrt =  managementonschoolHomePage.birthPlaceWarning.isDisplayed();
+                break;
+            case "pleaseEnterValidEmailMessage":
+               if(managementonschoolHomePage.pleaseEnterValidEmailMessage.isDisplayed()||managementonschoolHomePage.emailShouldBe5_50.isDisplayed())  { assrt =  true;}
+                break;
+            case "emailShouldBe5_50":
+                if(managementonschoolHomePage.pleaseEnterValidEmailMessage.isDisplayed()||managementonschoolHomePage.emailShouldBe5_50.isDisplayed())  { assrt =  true;}
+                break;
+            case "pleaseEnterValidPhoneNumberMessage":
+                assrt =  managementonschoolHomePage.pleaseEnterValidPhoneNumberMessage.isDisplayed();
+                break;
+            case "phoneNumber12Message":
+                assrt =  managementonschoolHomePage.phoneNumber12Message.isDisplayed();
+                break;
+            case "dogumGunuGecmisBirTarihOlmali":
+                assrt = managementonschoolHomePage.dogumGunuGecmisBirTarihOlmali.isDisplayed();
+                break;
+            case "pleaseEnterValidSSNNumberMessage":
+                assrt = managementonschoolHomePage.pleaseEnterValidSSNNumberMessage.isDisplayed();
+                break;
+            case "userNameMust4CharMessage":
+                assrt = managementonschoolHomePage.userNameMust4CharMessage.isDisplayed();
+                break;
+            case "fullAuthenticationWanrning":
+                assrt =  managementonschoolHomePage.fullAuthenticationWanrning.isDisplayed();
+                break;
+        }
+        Assert.assertTrue(assrt);
     }
 
 }
