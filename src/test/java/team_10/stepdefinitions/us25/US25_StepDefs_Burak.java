@@ -12,6 +12,8 @@ import team_10.utilities.ConfigReader;
 import team_10.utilities.Driver;
 import team_10.utilities.ReusableMethods;
 
+import static team_10.utilities.ReusableMethods.bekle;
+
 
 public class US25_StepDefs_Burak {
 
@@ -40,7 +42,7 @@ public class US25_StepDefs_Burak {
     @When("Kullanıcı menuden student management e tıklar")
     public void kullanıcı_menuden_student_management_e_tıklar() {
         ReusableMethods.click(log.menu);
-        ReusableMethods.bekle(1);
+        bekle(1);
         ReusableMethods.click(log.studentmanagement);
     }
 
@@ -273,7 +275,7 @@ public class US25_StepDefs_Burak {
 
     @And("Sayfa kapatiliir")
     public void sayfaKapatiliir() {
-        ReusableMethods.bekle(1);
+        bekle(1);
         Driver.closeDriver();
     }
 
@@ -340,6 +342,14 @@ public class US25_StepDefs_Burak {
         // String expected="Minimum 8 character";
         String actual = adminStudent.passwordalerT.getText();
         Assert.assertTrue(actual.contains("Minimum 8 character"));
+    }
+
+    @Then("Kullanici danismani secer")
+    public void kullaniciDanismaniSecer() {
+        ReusableMethods.click(admin.teacherSelectddm);
+        bekle(2);
+        Select select = new Select(admin.teacherSelectddm);
+        select.selectByIndex(3);
     }
 }
 

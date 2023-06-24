@@ -6,7 +6,7 @@ import team_10.pages.US25Pages.Login;
 
 public class US25_AdminStudent extends Login {
 
-    @FindBy(xpath = "(//*[@class='nav-link'])[10]")
+    @FindBy(id = "advisorTeacherId")
     public WebElement studentmanagement;
     @FindBy(xpath = "//*[@id='advisorTeacherId']")
     public WebElement teacherselectddm;

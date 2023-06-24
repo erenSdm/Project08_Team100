@@ -4,5 +4,5 @@ Feature: Admin, öğrenci oluşturabilme
     When Kullanıcı LOG IN e tıklar
     And Kullanıcı geçerli ADMİN OLARAK user name ve password u girer
     And Kullanıcı menuden student management e tıklar
-    Then Kullanıcı istediği danışman öğretmeni seçer
+    Then Kullanici danismani secer
     And Sayfa kapatiliir
