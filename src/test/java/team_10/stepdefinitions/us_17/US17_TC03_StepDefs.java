@@ -56,7 +56,7 @@ public class US17_TC03_StepDefs {
    @And("Hata mesaji gorulur ve ekran resmi alinir")
    public void hataMesajiGorulurVeEkranResmiAlinir() {
 
-      ReusableMethods.tumSayfaResmi("Hata mesaji teacher ");
+      ReusableMethods.tumSayfaResmi();
 
 
       ReusableMethods.tumSayfaResmi();
