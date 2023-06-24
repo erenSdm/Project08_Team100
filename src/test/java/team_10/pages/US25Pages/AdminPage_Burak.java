@@ -11,7 +11,7 @@ public class AdminPage_Burak {
     @FindBy(id = "advisorTeacherId")
     public WebElement teacherSelectddm;
 
-    @FindBy(id = "name")
+    @FindBy(xpath = "//input[@id='name']")
     public WebElement name;
 
     @FindBy(id = "surname")
