@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18c1f68e-156b-4bb5-a356-3c393f15489d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/team_10/pages/US25Pages/US25_AdminStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team_10/pages/US25Pages/US25_AdminStudent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us25/US25_StepDefs_Burak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us25/US25_StepDefs_Burak.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/team_10/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team_10/utilities/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features_ui/us-25_ui/tc01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-25_ui/tc01.feature" afterDir="false" />
-    </list>
+    <list default="true" id="18c1f68e-156b-4bb5-a356-3c393f15489d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
