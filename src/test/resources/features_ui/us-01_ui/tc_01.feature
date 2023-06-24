@@ -1,5 +1,5 @@
 @register
-Feature: US01 Register
+Feature: Aday ogrenciler sisteme kayit olabilmelidir.
   Background: kullanici ana sayfaya gider
     Given kullanici_managentonschool_ana_sayfasina gider
     And kullanici register butonuna tiklar
