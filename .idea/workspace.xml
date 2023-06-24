@@ -4,11 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
+    <list default="true" id="dd32f26d-5e78-4637-9cf2-e3fcc535ab1a" name="Changes" comment="Merge pull request #2 from erenSdm/Gorkem&#10;&#10;Gorkem">
+      <changelist_data name="Mustafa Ubeyde Kayhan" email="113878866+ubeydekayhan@users.noreply.github.com" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/database_stepdef/US01_DBStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/DBFeatures/US01_Register.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features_ui/us-01_ui/tc_01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-01_ui/tc_01.feature" afterDir="false" />
+    </list>
+
     <list default="true" id="18c1f68e-156b-4bb5-a356-3c393f15489d" name="Changes" comment="" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -19,22 +32,34 @@
     </option>
   </component>
   <component name="Git.Settings">
+
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Mustafa Ubeyde Kayhan &lt;113878866+ubeydekayhan@users.noreply.github.com&gt;" />
+      </list>
+
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
       </map>
+
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+
   </component>
   <component name="ProjectId" id="2RL5e7yVGGZrYhMqjwKcVNkxvf1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -82,6 +107,18 @@
       <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10" />
     </key>
   </component>
+
+  <component name="RunManager" selected="Cucumber Java.Scenario: US13_AC13_TC13">
+    <configuration name="Scenario: US13_AC12_TC12" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-13_ui/US13_UI_Vice_Dean_Registry.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="NAME_FILTER" value="^US13_AC12_TC12$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^US13_AC12_TC12$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: US13_AC12_TC12" />
+
   <component name="RunManager" selected="Cucumber Java.Scenario: Öğrencinin danışman öğretmeni seçilmelidir.">
     <configuration name="Feature: tc01" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -91,6 +128,7 @@
       <module name="Project08_Team10" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: tc01" />
+
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -102,6 +140,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+    <configuration name="Scenario: US13_AC13_TC13" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-13_ui/US13_UI_Vice_Dean_Registry.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="NAME_FILTER" value="^US13_AC13_TC13$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^US13_AC13_TC13$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: US13_AC13_TC13" />
+
     <configuration name="Scenario: TC01 Anasayfaya_gidilir_K" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" />
@@ -111,6 +160,7 @@
       <option name="NAME_FILTER" value="^TC01 Anasayfaya_gidilir_K$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 Anasayfaya_gidilir_K$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: TC01 Anasayfaya_gidilir_K" />
+
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -122,7 +172,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+    <configuration name="Scenario: US13_AC1_TC1" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+
     <configuration name="Scenario: TC01 Student info bolumune bilgilerin girilmesi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-17-ui/US17_TC02.feature" />
       <option name="GLUE" value="team_10.stepdefinitions.us_17" />
@@ -219,9 +273,14 @@
       </method>
     </configuration>
     <recent_temporary>
-      <list>
+
+        <item itemvalue="Cucumber Java.Scenario: US13_AC13_TC13" />
+        <item itemvalue="Cucumber Java.Scenario: US13_AC12_TC12" />
+        <item itemvalue="Cucumber Java.Scenario: US13_AC1_TC1" />
+
         <item itemvalue="Cucumber Java.Scenario: Öğrencinin danışman öğretmeni seçilmelidir." />
         <item itemvalue="Cucumber Java.Feature: tc01" />
+
       </list>
     </recent_temporary>
   </component>
@@ -255,12 +314,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687035386171</updated>
     </task>
+
+    <task id="LOCAL-00004" summary="Merge pull request #2 from erenSdm/Gorkem&#10;&#10;Gorkem">
+      <created>1687554714885</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687554714885</updated>
+
     <task id="LOCAL-00004" summary="v1.Ayk">
       <created>1687361796859</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1687361796859</updated>
+
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
@@ -279,11 +347,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cc" />
     <MESSAGE value="finally" />
+
+    <MESSAGE value="Merge pull request #2 from erenSdm/Gorkem&#10;&#10;Gorkem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge pull request #2 from erenSdm/Gorkem&#10;&#10;Gorkem" />
+
     <MESSAGE value="v1.Ayk" />
     <option name="LAST_COMMIT_MESSAGE" value="v1.Ayk" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+
   </component>
 </project>
