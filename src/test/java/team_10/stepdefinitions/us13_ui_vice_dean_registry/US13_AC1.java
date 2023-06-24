@@ -176,9 +176,9 @@ public class US13_AC1 {
     }
 
 
-
     @Then("Quit Driver Gorkem")
     public void quitDriverGorkem() {
+    }
 
     @Then("Close it")
     public void closeIt() {
@@ -190,22 +190,22 @@ public class US13_AC1 {
 
     @And("Warning for <{string}>")
     public void warningFor(String warning) {
-       boolean assrt=false;
+        boolean assrt = false;
         switch (warning) {
             case "nameRequired":
                 assrt = managementonschoolHomePage.nameRequired.isDisplayed();
                 break;
             case "surNameRequired":
-                assrt =  managementonschoolHomePage.surNameRequired.isDisplayed();
+                assrt = managementonschoolHomePage.surNameRequired.isDisplayed();
                 break;
             case "birthPlaceRequired":
-                assrt =  managementonschoolHomePage.birthPlaceRequired.isDisplayed();
+                assrt = managementonschoolHomePage.birthPlaceRequired.isDisplayed();
                 break;
             case "emailRequired":
                 assrt = managementonschoolHomePage.emailRequired.isDisplayed();
                 break;
             case "phoneNumberRequired":
-                assrt =  managementonschoolHomePage.phoneNumberRequired.isDisplayed();
+                assrt = managementonschoolHomePage.phoneNumberRequired.isDisplayed();
                 break;
             case "birthDayRequired":
                 assrt = managementonschoolHomePage.birthDayRequired.isDisplayed();
@@ -214,31 +214,35 @@ public class US13_AC1 {
                 assrt = managementonschoolHomePage.sSNRequired.isDisplayed();
                 break;
             case "passwordRequired":
-                assrt =  managementonschoolHomePage.passwordRequired.isDisplayed();
+                assrt = managementonschoolHomePage.passwordRequired.isDisplayed();
                 break;
             case "pleaseChooseLessonMessage":
-                assrt =  managementonschoolHomePage.pleaseChooseLessonMessage.isEnabled();
+                assrt = managementonschoolHomePage.pleaseChooseLessonMessage.isEnabled();
                 break;
             case "invalidNameWarning":
-                assrt =  managementonschoolHomePage.invalidNameWarning.isDisplayed();
+                assrt = managementonschoolHomePage.invalidNameWarning.isDisplayed();
                 break;
             case "invalidSurNameWarning":
                 assrt = managementonschoolHomePage.invalidSurNameWarning.isDisplayed();
                 break;
             case "birthPlaceWarning":
-                assrt =  managementonschoolHomePage.birthPlaceWarning.isDisplayed();
+                assrt = managementonschoolHomePage.birthPlaceWarning.isDisplayed();
                 break;
             case "pleaseEnterValidEmailMessage":
-               if(managementonschoolHomePage.pleaseEnterValidEmailMessage.isDisplayed()||managementonschoolHomePage.emailShouldBe5_50.isDisplayed())  { assrt =  true;}
+                if (managementonschoolHomePage.pleaseEnterValidEmailMessage.isDisplayed() || managementonschoolHomePage.emailShouldBe5_50.isDisplayed()) {
+                    assrt = true;
+                }
                 break;
             case "emailShouldBe5_50":
-                if(managementonschoolHomePage.pleaseEnterValidEmailMessage.isDisplayed()||managementonschoolHomePage.emailShouldBe5_50.isDisplayed())  { assrt =  true;}
+                if (managementonschoolHomePage.pleaseEnterValidEmailMessage.isDisplayed() || managementonschoolHomePage.emailShouldBe5_50.isDisplayed()) {
+                    assrt = true;
+                }
                 break;
             case "pleaseEnterValidPhoneNumberMessage":
-                assrt =  managementonschoolHomePage.pleaseEnterValidPhoneNumberMessage.isDisplayed();
+                assrt = managementonschoolHomePage.pleaseEnterValidPhoneNumberMessage.isDisplayed();
                 break;
             case "phoneNumber12Message":
-                assrt =  managementonschoolHomePage.phoneNumber12Message.isDisplayed();
+                assrt = managementonschoolHomePage.phoneNumber12Message.isDisplayed();
                 break;
             case "dogumGunuGecmisBirTarihOlmali":
                 assrt = managementonschoolHomePage.dogumGunuGecmisBirTarihOlmali.isDisplayed();
@@ -250,7 +254,7 @@ public class US13_AC1 {
                 assrt = managementonschoolHomePage.userNameMust4CharMessage.isDisplayed();
                 break;
             case "fullAuthenticationWanrning":
-                assrt =  managementonschoolHomePage.fullAuthenticationWanrning.isDisplayed();
+                assrt = managementonschoolHomePage.fullAuthenticationWanrning.isDisplayed();
                 break;
         }
         Assert.assertTrue(assrt);

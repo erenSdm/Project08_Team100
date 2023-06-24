@@ -5,24 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="221203af-c935-4cf7-ac3a-cb87bb9c237d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/database_stepdef/US01_DBStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us01_ui_register/US01_AC1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/DBFeatures/US01_Register.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-01_ui/tc_01.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-02_ui/tc_01.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-18-ui/US18_TC01.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-18-ui/US18_TC02.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/team_10/pages/KubraLocatler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team_10/pages/KubraLocatler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/team_10/pages/Managementonschool_HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team_10/pages/Managementonschool_HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us13_ui_vice_dean_registry/US13_AC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us13_ui_vice_dean_registry/US13_AC1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us_17/US17_TC03_StepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us_17/US17_TC03_StepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features_ui/us-17-ui/US17_TC01_TC02.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-17-ui/US17_TC01_TC02.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features_ui/us-17-ui/US17_TC03_NegatifTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-17-ui/US17_TC03_NegatifTest.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us25/US25_StepDefs_Burak.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us25/US25_StepDefs_Burak.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features_ui/us-25_ui/tc01.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-25_ui/tc01.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

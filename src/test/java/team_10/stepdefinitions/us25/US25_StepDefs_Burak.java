@@ -30,8 +30,8 @@ public class US25_StepDefs_Burak extends Login {
         login.click();
     }
 
-    @When("Kullanıcı geçerli VİCE DEAN OLARAK user name ve password u girer")
-    public void kullanıcı_geçerli_vice_dean_olarak_user_name_ve_password_u_girer() {
+    @When("Kullanıcı geçerli admin olarak user name ve password u girer")
+    public void kullanıcı_geçerli_admin_olarak_user_name_ve_password_u_girer() {
         admin.username.sendKeys(ConfigReader.getProperty("username"));
         admin.smpassword.sendKeys(ConfigReader.getProperty("password"));
         ReusableMethods.click(accountlogin);
@@ -44,8 +44,8 @@ public class US25_StepDefs_Burak extends Login {
         ReusableMethods.click(log.studentmanagement);
     }
 
-    @Then("Kullanıcı istediği danışman öğretmeni seçer")
-    public void kullanıcı_istediği_danışman_öğretmeni_seçer() {
+    @Then("Kullanici danismani secer")
+    public void kullanıcı_danismani_secer() {
         ReusableMethods.click(log.teacherselectddm);
         Select select = new Select(log.teacherselectddm);
         select.selectByIndex(1);
@@ -261,7 +261,7 @@ public class US25_StepDefs_Burak extends Login {
 
     @Then("Kullanıcı Mother Name in altında Required yazısını görür.")
     public void kullanıcıMotherNameInAltındaRequiredYazısınıGörür() {
-        Assert.assertTrue(vice.mothernamerequired.isDisplayed());
+        Assert.assertTrue(admin.mothernameRequired.isDisplayed());
     }
 
 
@@ -339,7 +339,7 @@ public class US25_StepDefs_Burak extends Login {
     @Then("Kullanıcı passwordun altında Minimum sekiz character uyarısını görür")
     public void kullanıcıPasswordunAltındaMinimumSekizCharacterUyarısınıGörür() {
         // String expected="Minimum 8 character";
-        String actual = vice.passwordalerT.getText();
+        String actual = admin.passwordAlert.getText();
         Assert.assertTrue(actual.contains("Minimum 8 character"));
 
     }
