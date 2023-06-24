@@ -49,7 +49,7 @@ public class US17_TC03_StepDefs {
    public void hataMesajiGorulurVeEkranResmiAlinir() {
 
 
-      ReusableMethods.tumSayfaResmi("Hata mesaji teacher ");
+      ReusableMethods.tumSayfaResmi();
    }
 
    @And("Logout yapilir")
