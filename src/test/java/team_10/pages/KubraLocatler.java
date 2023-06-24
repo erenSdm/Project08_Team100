@@ -33,7 +33,7 @@ public class KubraLocatler {
 
     @FindBy(xpath = "//a[@href='/login']")
     public WebElement loginGiris;
-    //span[@class='text-white']
+
 
     @FindBy(xpath = "//span[@class='text-white']")
     public WebElement hiYazisi;
@@ -41,7 +41,7 @@ public class KubraLocatler {
     @FindBy(xpath = "(//button[@type='button'])[1]")
     public WebElement ogertmenMenu;
 
-    //a[text()='Student Info Management']
+
 
     @FindBy(xpath = "(//a[@role='button'])[10]")
     public WebElement studentManagInfo;
@@ -73,12 +73,50 @@ public class KubraLocatler {
 
     //a[text()='Logout']
 
-    @FindBy(xpath ="//a[text()='Logout']")
+    @FindBy(xpath ="(//a[@role='button'])[12]")
     public WebElement logout;
 
-    //button[@aria-controls='offcanvasNavbar-expand-false']
     @FindBy(xpath ="//button[@aria-controls='offcanvasNavbar-expand-false']")
     public WebElement menu;
 
+    //button[text()='Yes']
+
+    @FindBy(xpath ="///button[text()='Yes']")
+    public WebElement yesLogout;
+
+
+    ///!!!!US 18 LOCATELER
+
+    @FindBy(xpath ="//th[1]")
+    public WebElement nameIsdisp;
+
+    @FindBy(xpath ="//th[2]")
+    public WebElement lessonIsdisp;
+
+    @FindBy(xpath ="//th[3]")
+    public WebElement absenteeIsdisp;
+
+    @FindBy(xpath ="//th[4]")
+    public WebElement midterexamIsdisp;
+
+    @FindBy(xpath ="//th[5]")
+    public WebElement finalexamIsdisp;
+
+    @FindBy(xpath ="//th[6]")
+    public WebElement noteIsdisp;
+
+    @FindBy(xpath ="//th[7]")
+    public WebElement infonoteIsdisp;
+
+    @FindBy(xpath ="//th[8]")
+    public WebElement averageIsdisp;
+
+    @FindBy(xpath ="(//button[@class='text-dark btn btn-outline-info'])[5]")
+    public WebElement edit;
+
+    //div[text()='Edit Student Info']
+
+    @FindBy(xpath ="//div[text()='Edit Student Info']")
+    public WebElement editStudentInfopage;
 }
 
