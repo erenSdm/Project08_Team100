@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3e8125d-7ab5-4d18-b453-d41f488171e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us10_ui_viceDean/US10.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us11_ui/US11_ui.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-11_ui/US11_ViceDeanCanSeeCreatedLessonProgram.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c483affd-d375-4235-b6ab-cbba9ff04312" name="Changes" comment="v1.Ayk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/team_10/pages/Managementonschool_LessonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/team_10/pages/Managementonschool_LessonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us10_ui_viceDean/US10_TC01.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US10_ViceDeanCanCreateLessonsProgram.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,9 +191,6 @@
       <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry team_10.stepdefinitions.us10_ui_viceDean" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Project08_Team10" />
-      <option name="NAME_FILTER" value="^TC\-01 ice Dean can choose lesson$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-01 ice Dean can choose lesson$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-01 ice Dean can choose lesson" />
       <option name="NAME_FILTER" value="^TC01 Anasayfaya_gidilir_K$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 Anasayfaya_gidilir_K$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: TC01 Anasayfaya_gidilir_K" />
@@ -221,8 +211,6 @@
       <option name="GLUE" value="team_10.stepdefinitions.us_17" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Project08_Team10" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US17_TC02" />
       <option name="NAME_FILTER" value="^TC01 Student info bolumune bilgilerin girilmesi$" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 Student info bolumune bilgilerin girilmesi$&quot;" />
       <option name="SUGGESTED_NAME" value="Scenario: TC01 Student info bolumune bilgilerin girilmesi" />
@@ -257,7 +245,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: US13_AC12_TC12" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true" />
+    <configuration name="Scenario: US13_AC12_TC12" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Scenario: TC-01 Vice dean can to see created lesson,lesson day,start time, stop time" />
@@ -271,7 +263,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dd32f26d-5e78-4637-9cf2-e3fcc535ab1a" name="Changes" comment="" />
+      <changelist id="c483affd-d375-4235-b6ab-cbba9ff04312" name="Changes" comment="" />
       <created>1687016614005</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
