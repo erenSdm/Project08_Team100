@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
+    <list default="true" id="c483affd-d375-4235-b6ab-cbba9ff04312" name="Changes" comment="v1.Ayk">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+
     <list default="true" id="221203af-c935-4cf7-ac3a-cb87bb9c237d" name="Changes" comment="" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,11 +117,117 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
+    <configuration name="Scenario: TC-04  Vice Dean can choose start time" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry team_10.stepdefinitions.us10_ui_viceDean" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="NAME_FILTER" value="^TC\-04  Vice Dean can choose start time$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-04  Vice Dean can choose start time$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-04  Vice Dean can choose start time" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC-05 Vice Dean can choose stop time" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry team_10.stepdefinitions.us10_ui_viceDean" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="NAME_FILTER" value="^TC\-05 Vice Dean can choose stop time$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-05 Vice Dean can choose stop time$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC-05 Vice Dean can choose stop time" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC01 Anasayfaya_gidilir_K" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry team_10.stepdefinitions.us10_ui_viceDean" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="NAME_FILTER" value="^TC01 Anasayfaya_gidilir_K$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 Anasayfaya_gidilir_K$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01 Anasayfaya_gidilir_K" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC01 Student info bolumune bilgilerin girilmesi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-17-ui/US17_TC02.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us_17" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="NAME_FILTER" value="^TC01 Student info bolumune bilgilerin girilmesi$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC01 Student info bolumune bilgilerin girilmesi$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC01 Student info bolumune bilgilerin girilmesi" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: TC02 Teacher ogrencilere not verebilmelidir" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-17-ui/US17_TC02.feature" />
+      <option name="GLUE" value="team_10.stepdefinitions.us_17" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="NAME_FILTER" value="^TC02 Teacher ogrencilere not verebilmelidir$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC02 Teacher ogrencilere not verebilmelidir$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC02 Teacher ogrencilere not verebilmelidir" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+
+    <configuration name="Scenario: US13_AC12_TC12" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+
     <configuration name="Scenario: US13_AC12_TC12" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: tc01" />
@@ -123,6 +235,44 @@
     </recent_temporary>
   </component>
   <component name="TaskManager">
+
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c483affd-d375-4235-b6ab-cbba9ff04312" name="Changes" comment="" />
+      <created>1687016614005</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687016614005</updated>
+    </task>
+    <task id="LOCAL-00001" summary="cc">
+      <created>1687021694980</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687021694980</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cc">
+      <created>1687023397089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1687023397089</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finally">
+      <created>1687035386171</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687035386171</updated>
+    </task>
+    <task id="LOCAL-00004" summary="v1.Ayk">
+      <created>1687361796859</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687361796859</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
