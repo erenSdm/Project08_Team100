@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="c483affd-d375-4235-b6ab-cbba9ff04312" name="Changes" comment="v1.Ayk">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+
+    <list default="true" id="221203af-c935-4cf7-ac3a-cb87bb9c237d" name="Changes" comment="" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,6 +28,10 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS" />
+    <list>
+      <option value="Mustafa Ubeyde Kayhan &lt;113878866+ubeydekayhan@users.noreply.github.com&gt;" />
+    </list>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -81,19 +92,20 @@
       <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10\src\test\java\team_10\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/features_ui" />
       <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="team_10.stepdefinitions.us13_ui_vice_dean_registry" />
+    </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC-01 Vice dean can to see created lesson,lesson day,start time, stop time">
-    <configuration name="Feature: US01_ViceDeanCanCreateLessonsProgram" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: tc01">
+    <configuration name="Feature: tc01" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" />
-      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry team_10.stepdefinitions.us10_ui_viceDean" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-25_ui/tc01.feature" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Project08_Team10" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: US01_ViceDeanCanCreateLessonsProgram" />
+      <option name="SUGGESTED_NAME" value="Feature: tc01" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -105,46 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: TC-01 Vice dean can to see created lesson,lesson day,start time, stop time" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-11_ui/US11_ViceDeanCanSeeCreatedLessonProgram.feature" />
-      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry team_10.stepdefinitions.us11_ui team_10.stepdefinitions.us10_ui_viceDean" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Project08_Team10" />
-      <option name="NAME_FILTER" value="^TC\-01 Vice dean can to see created lesson\,lesson day\,start time\, stop time$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-01 Vice dean can to see created lesson\,lesson day\,start time\, stop time$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-01 Vice dean can to see created lesson,lesson day,start time, stop time" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Scenario: TC-03" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" />
-      <option name="GLUE" value="team_10.stepdefinitions.us13_ui_vice_dean_registry team_10.stepdefinitions.us10_ui_viceDean" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="Project08_Team10" />
-      <option name="NAME_FILTER" value="^TC\-03$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC\-03$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: TC-03" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+
     <configuration name="Scenario: TC-04  Vice Dean can choose start time" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US01_ViceDeanCanCreateLessonsProgram.feature" />
@@ -241,27 +214,28 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+
+    <configuration name="Scenario: US13_AC12_TC12" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="Scenario: US13_AC12_TC12" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC-01 Vice dean can to see created lesson,lesson day,start time, stop time" />
-        <item itemvalue="Cucumber Java.Feature: US01_ViceDeanCanCreateLessonsProgram" />
-        <item itemvalue="Cucumber Java.Scenario: TC-05 Vice Dean can choose stop time" />
-        <item itemvalue="Cucumber Java.Scenario: TC-04  Vice Dean can choose start time" />
-        <item itemvalue="Cucumber Java.Scenario: TC-03" />
+        <item itemvalue="Cucumber Java.Feature: tc01" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+
     <task active="true" id="Default" summary="Default task">
       <changelist id="c483affd-d375-4235-b6ab-cbba9ff04312" name="Changes" comment="" />
       <created>1687016614005</created>
@@ -298,6 +272,7 @@
       <updated>1687361796859</updated>
     </task>
     <option name="localTasksCounter" value="5" />
+
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,6 +289,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cc" />
     <MESSAGE value="finally" />
+    <MESSAGE value="Merge pull request #2 from erenSdm/Gorkem&#10;&#10;Gorkem" />
     <MESSAGE value="v1.Ayk" />
     <option name="LAST_COMMIT_MESSAGE" value="v1.Ayk" />
   </component>
