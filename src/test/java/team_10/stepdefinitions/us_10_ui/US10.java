@@ -1,4 +1,4 @@
-package team_10.stepdefinitions.us10_ui_viceDean;
+package team_10.stepdefinitions.us_10_ui;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
@@ -8,6 +8,7 @@ import team_10.utilities.Driver;
 import team_10.utilities.ReusableMethods;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class US10 {
     Managementonschool_LessonPage managementonschoolLessonPage;
@@ -21,21 +22,9 @@ public class US10 {
     @Then("Click_To_Lesson_Program")
     public void clickToLessonProgram() {
         managementonschoolLessonPage=new Managementonschool_LessonPage();
-        managementonschoolLessonPage.lessonProgram.click();    }
-
-    public static String expectedLesson="Java";
-    @Then("Choose a lesson as Vice Dean in Lesson Program")
-    public void chooseALessonAsViceDeanInLessonProgram() {
-        managementonschoolLessonPage=new Managementonschool_LessonPage();
-        managementonschoolLessonPage.chooseLessonsInLessonProgramasViceDean.sendKeys(expectedLesson, Keys.ENTER);
+        managementonschoolLessonPage.lessonProgram.click();
+        ReusableMethods.bekle(1);
     }
-
-    @And("assert Java is selected")
-    public void javaIsSelected() {
-        managementonschoolLessonPage=new Managementonschool_LessonPage();
-        managementonschoolLessonPage.chooseLessonsInLessonProgramasViceDean.isSelected();
-    }
-
     @Then("Choose a education term as Vice Dean in Lesson Program")
     public void chooseAEducationTermAsViceDeanInLessonProgram() {
         managementonschoolLessonPage=new Managementonschool_LessonPage();
@@ -43,12 +32,12 @@ public class US10 {
         managementonschoolLessonPage.chooseSPRING_SEMESTERInEducationTermInLessonProgramasViceDean.click();
     }
 
-    public static String expectedSemester="SPRING_SEMESTER";
-    @And("assert Education term is selected")
-    public void assertEducationTermIsSelected() {
+
+    @And("assert Education term {string} is selected")
+    public void assertEducationTermIsSelected(String semester) {
         managementonschoolLessonPage=new Managementonschool_LessonPage();
         String actualData=managementonschoolLessonPage.chooseSPRING_SEMESTERInEducationTermInLessonProgramasViceDean.getText();
-        assertEquals(expectedSemester,actualData);
+        assertEquals(semester,actualData);
     }
 
     @And("close Driver")
@@ -81,34 +70,60 @@ public class US10 {
     public void closeDrive() {
         Driver.closeDriver();
     }
-    public static String expectedDataStartTime="07:50";
-    @Then("Choose a Start Time as Vice Dean in Lesson Program")
-    public void choose_a_start_time_as_vice_dean_in_lesson_program() {
-        managementonschoolLessonPage=new Managementonschool_LessonPage();
-        managementonschoolLessonPage.chooseStartTimeInLessonProgramasViceDean.sendKeys(expectedDataStartTime);
 
+    @Then("Choose a start time {string} in Lesson Program")
+    public void chooseAAsInLessonProgram(String startTime) {
+        managementonschoolLessonPage=new Managementonschool_LessonPage();
+        managementonschoolLessonPage.chooseStartTimeInLessonProgramasViceDean.sendKeys(startTime);
     }
-    @Then("assert Start Time is selected")
-    public void assert_start_time_is_selected() {
+    public static String expectedDataStartTime="07:50";
+
+    @Then("assert Start Time {string} is selected")
+    public void assert_start_time_is_selected(String startTime) {
         managementonschoolLessonPage=new Managementonschool_LessonPage();
         String actualData=managementonschoolLessonPage.chooseStartTimeInLessonProgramasViceDean.getAttribute("value");
-         assertEquals(expectedDataStartTime,actualData);
+         assertEquals(startTime,actualData);
     }
 
     public static String expectedDataStopTime="10:00";
-    @Then("Choose a Stop Time as Vice Dean in Lesson Program")
-    public void choose_a_stop_time_as_vice_dean_in_lesson_program() {
+    @Then("Choose a Stop Time {string} in Lesson Program")
+    public void choose_a_stop_time_as_vice_dean_in_lesson_program(String stopTime) {
         managementonschoolLessonPage=new Managementonschool_LessonPage();
         managementonschoolLessonPage=new Managementonschool_LessonPage();
-        managementonschoolLessonPage.chooseStopTimeInLessonProgramasViceDean.sendKeys(expectedDataStopTime);
+        managementonschoolLessonPage.chooseStopTimeInLessonProgramasViceDean.sendKeys(stopTime);
+        ReusableMethods.bekle(2);
 
     }
-    @Then("assert Stop Time is selected")
-    public void assert_stop_time_is_selected() {
+    @Then("assert Stop Time {string} is selected")
+    public void assert_stop_time_is_selected(String stopTime) {
         managementonschoolLessonPage=new Managementonschool_LessonPage();
         String actualData=managementonschoolLessonPage.chooseStopTimeInLessonProgramasViceDean.getAttribute("value");
-        assertEquals(expectedDataStopTime,actualData);
+        assertEquals(stopTime,actualData);
     }
+
+
+    @Then("Choose a lesson {string} as Vice Dean in Lesson Program")
+    public void chooseAsViceDeanInLessonProgram(String lesson) {
+        managementonschoolLessonPage=new Managementonschool_LessonPage();
+        managementonschoolLessonPage.chooseLessonsInLessonProgramasViceDean.sendKeys(lesson, Keys.ENTER);
+        ReusableMethods.bekle(2);
+
+    }
+
+    @And("assert {string} is display")
+    public void assertIsDisplay(String lesson) {
+        managementonschoolLessonPage=new Managementonschool_LessonPage();
+        assertEquals(lesson,managementonschoolLessonPage.sendedLesson.getText());
+    }
+
+    @Then("Click_To_Lesson_Programs")
+    public void clickToLessonPrograms() {
+        managementonschoolLessonPage=new Managementonschool_LessonPage();
+        ReusableMethods.bekle(2);
+        managementonschoolLessonPage.lessonProgram.click();
+        ReusableMethods.bekle(1);
+    }
+
 
 
 
