@@ -260,6 +260,24 @@ public class Managementonschool_LessonPage {
     @FindBy(xpath = "(//button[@class='fw-semibold btn btn-primary btn-lg'])[3]")  public WebElement submitButtonAddLessonProgram;
     @FindBy(xpath = "(//table[@class='table table-striped table-bordered table-hover'])[3]")  public WebElement lessonProgramList;
     @FindBy(css = "#controlled-tab-example-tabpane-lessonProgram > div:nth-child(2) > div:nth-child(2) > div > div > table > tbody")  public WebElement tableInLessonProgram;
+    @FindBy(xpath = "//*[@id=\"controlled-tab-example-tabpane-lessonProgram\"]/div[2]/div[2]/div/div/table/thead/tr/th[1]")  public WebElement lessonText;
+    @FindBy(xpath = "//*[@class=' css-9jq23d']")  public WebElement sendedLesson;
+    @FindBy(xpath = "//*[@id=\"controlled-tab-example-tabpane-lessonProgram\"]/div[2]/div[2]/div/div/table/thead/tr/th[2]")  public WebElement dayText;
+    @FindBy(xpath = "//*[@id=\"controlled-tab-example-tabpane-lessonProgram\"]/div[2]/div[2]/div/div/table/thead/tr/th[3]")  public WebElement startTimeText;
+    @FindBy(xpath = "//*[@id=\"controlled-tab-example-tabpane-lessonProgram\"]/div[2]/div[2]/div/div/table/thead/tr/th[4]")  public WebElement stopTimeText;
+    @FindBy(xpath = "(//tbody[@class='table-group-divider'])[3]")  public WebElement lessonProgramListTable;
+    @FindBy(xpath = "(//*[@id='lessonProgramId'])[1]")  public WebElement selectALessonInLessonProgramAssign;
+    @FindBy(xpath = "//*[text()='Murat']")  public WebElement chooseTeacherMuratInLessonProgramasViceDean;
+    @FindBy(id = "teacherId")  public WebElement chooseTeacherDDM;
+    @FindBy(xpath = "(//*[text()='Choose Teacher'])[1]")  public WebElement chooseTeachertext;
+    @FindBy(xpath = "//*[text()='Contact Message']")  public WebElement contactMessageText;
+    @FindBy(xpath = "//*[@class='table table-striped table-bordered table-hover']")  public WebElement contactMessageTable;
+
+
+
+
+
+
 
 
 

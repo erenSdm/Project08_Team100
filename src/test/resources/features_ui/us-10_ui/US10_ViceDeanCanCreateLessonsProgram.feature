@@ -12,12 +12,12 @@ Feature: US01_Vice Dean can create a lesson program
 
   Scenario: TC-01 ice Dean can choose lesson
 
-    Then Choose a lesson as Vice Dean in Lesson Program
-    And assert Java is selected
+    Then Choose a lesson "Java" as Vice Dean in Lesson Program
+    And assert "Java" is display
     And Close Driver
   Scenario: TC-02 Vice Dean can choose education term
     Then Choose a education term as Vice Dean in Lesson Program
-    And assert Education term is selected
+    And assert Education term "SPRING_SEMESTER" is selected
     And Quit Driver
 
   Scenario: TC-03 TC-02 Vice Dean can choose day
@@ -26,12 +26,12 @@ Feature: US01_Vice Dean can create a lesson program
     And Quit Driver
 
   Scenario: TC-04  Vice Dean can choose start time
-    Then Choose a Start Time as Vice Dean in Lesson Program
-    And assert Start Time is selected
+    Then Choose a start time "07:50" in Lesson Program
+    And assert Start Time "07:50" is selected
     And Close Driver
 
   Scenario: TC-05 Vice Dean can choose stop time
-    Then Choose a Stop Time as Vice Dean in Lesson Program
-    And assert Stop Time is selected
+    Then Choose a Stop Time "09:00" in Lesson Program
+    And assert Stop Time "09:00" is selected
     And Close Driver
 
