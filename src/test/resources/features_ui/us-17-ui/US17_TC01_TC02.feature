@@ -16,6 +16,7 @@ Feature: US17 Teacher, öğrencilere not verebilmelidir.
       | Derya | AK      | Bordeaux  | 123-999-4567 | female | 12.02.1990  | 124-65-9898 | derya    | 12345678 |
 
 
+    @tc2
   Scenario Outline: TC02 Student info bolumune bilgilerin girilmesi
     Given Anasyafaya_gidilir_k
     And login butonuna basilir_k

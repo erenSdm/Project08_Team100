@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+
     <list default="true" id="d3e8125d-7ab5-4d18-b453-d41f488171e4" name="Changes" comment="Aykt_230623">
       <change afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us_07_ui/Us_07_ui.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/team_10/stepdefinitions/us_11_ui/US11.java" afterDir="false" />
@@ -18,10 +19,16 @@
       <change beforePath="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US10_ViceDeanCanCreateLessonsProgram.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-10_ui/US10_ViceDeanCanCreateLessonsProgram.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features_ui/us-11_ui/US11_ViceDeanCanSeeCreatedLessonProgram.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features_ui/us-11_ui/US11_ViceDeanCanSeeCreatedLessonProgram.feature" afterDir="false" />
     </list>
+
+    <list default="true" id="221203af-c935-4cf7-ac3a-cb87bb9c237d" name="Changes" comment="" />
+
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,6 +39,10 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS" />
+    <list>
+      <option value="Mustafa Ubeyde Kayhan &lt;113878866+ubeydekayhan@users.noreply.github.com&gt;" />
+    </list>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="main" />
@@ -92,10 +103,13 @@
       <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10\src\test\java\team_10\pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/features_ui" />
       <recent name="C:\Users\enesa\IdeaProjects\Project08_Team10" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="team_10.stepdefinitions.us13_ui_vice_dean_registry" />
+    </key>
   </component>
+
   <component name="RunManager" selected="Cucumber Java.Feature: Us12_ui">
     <configuration name="Feature: US10_ViceDeanCanCreateLessonsProgram" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
@@ -106,6 +120,16 @@
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: US10_ViceDeanCanCreateLessonsProgram" />
+
+  <component name="RunManager" selected="Cucumber Java.Feature: tc01">
+    <configuration name="Feature: tc01" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-25_ui/tc01.feature" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Project08_Team10" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: tc01" />
+
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -117,6 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <configuration name="Feature: Us12_ui" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features_ui/us-12_ui/Us12_ui.feature" />
@@ -192,10 +217,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+
+    <configuration name="Scenario: US13_AC12_TC12" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+
     <list>
       <item itemvalue="Cucumber Java.Feature: us07_ui" />
       <item itemvalue="Cucumber Java.Feature: Us12_ui" />
@@ -210,11 +239,15 @@
         <item itemvalue="Cucumber Java.Feature: us07_ui" />
         <item itemvalue="Cucumber Java.Scenario: To Lesson contact all menü" />
         <item itemvalue="Cucumber Java.Feature: US10_ViceDeanCanCreateLessonsProgram" />
+
+    <recent_temporary>
+      <list>
+
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+
     <task active="true" id="Default" summary="Default task">
       <changelist id="d3e8125d-7ab5-4d18-b453-d41f488171e4" name="Changes" comment="Aykt_230623" />
       <created>1687016614005</created>
@@ -258,6 +291,7 @@
       <updated>1687553781480</updated>
     </task>
     <option name="localTasksCounter" value="6" />
+
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +308,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cc" />
     <MESSAGE value="finally" />
+    <MESSAGE value="Merge pull request #2 from erenSdm/Gorkem&#10;&#10;Gorkem" />
     <MESSAGE value="v1.Ayk" />
     <MESSAGE value="Aykt_230623" />
     <option name="LAST_COMMIT_MESSAGE" value="Aykt_230623" />
